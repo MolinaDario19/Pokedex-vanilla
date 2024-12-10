@@ -1,0 +1,97 @@
+h1{
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    color: #6a0058;
+}
+
+.pokemonList {
+    display: flex;                /* Usamos Flexbox para el contenedor */
+    flex-wrap: wrap;              /* Permite que los elementos se ajusten cuando no haya suficiente espacio */
+    gap: 25px;                    /* Espacio entre las tarjetas */
+    justify-content: center;      /* Centra las tarjetas en el contenedor */
+  }
+
+ 
+  .pokemonCard {
+    background-color: #f8f8f8f8;
+    border: 2px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    width: 150px;                 /* Ancho fijo  */
+    box-sizing: border-box;       /* Para que el padding no se sume al tamaño total */
+    box-shadow:0 0 20px rgb(49, 1, 72);
+    
+  }
+
+  #pokemonInfo{
+    background-color: #f8f8f8f8;
+    border: 2px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    width: 150px;                 /* Ancho fijo  */
+    box-sizing: border-box;       /* Para que el padding no se sume al tamaño total */
+    box-shadow:0 0 20px rgb(49, 1, 72);
+  }
+
+  
+.searchBtn {
+    background-color: #009045; 
+    color: #ffffff; 
+    font-family: 'Comic Sans MS', cursive, sans-serif; 
+    padding: 15px 30px;
+    border: none; 
+    border-radius: 50px; 
+    font-size: 18px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+    
+.searchBtn:hover {
+    background-color: #00709d; 
+}
+
+.searchInput{
+    color: #1d09c9;
+    padding: 15px 30px;
+    border-bottom: 20px;
+    font-size: 18px;
+    border-radius: 25px;
+}
+
+  .pokemonCard:hover {
+    color: rgb(255, 255, 255);
+    background-color: #111111;
+  }
+
+  .pokemonCard h3:hover{
+    color: rgb(255, 255, 255);
+  }
+
+  .pokemonCard h3{
+    font-size: 20px;
+    color: #111111;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+  .pokemonCard img {
+    width: 100%;                  /* Hace que las imágenes se ajusten al tamaño de la tarjeta */
+    height: auto;
+  }
+
+  .pokemonCard img:hover{
+    width: 130%;                  /* Hace que las imágenes se ajusten al tamaño de la tarjeta */
+    height: auto;
+  }
+
+  h3.name {
+    font-size: 18px;
+    color: #333;
+  }
+
+  h2.idName {
+    font-size: 16px;
+    color: #555;
+  }
